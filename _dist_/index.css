@@ -1,0 +1,22 @@
+@import "../_snowpack/pkg/tailwindcss/dist/base.css";
+@import "../_snowpack/pkg/tailwindcss/dist/components.css";
+@import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
+
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Zen Loop', cursive;
+}
+.precio {
+    color: gray;
+}
+
+
+.avocado-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-top: 40px;
+}
